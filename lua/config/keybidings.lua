@@ -39,9 +39,10 @@ map('n', '<Leader>rf','<Cmd>RustFmt<CR>', { noremap = true, silent = true, desc 
 
 -- Lsp
 map('n', '<Leader>la','<Cmd>FzfLua lsp_code_actions<CR>', { noremap = true, silent = true, desc = "Code actions"})
-map('n', '<Leader>lD','<Cmd>FzfLua lsp_definitions<CR>', { noremap = true, silent = true, desc = "Jump to definition"})
+map('n', '<Leader>lj','<Cmd>FzfLua lsp_definitions<CR>', { noremap = true, silent = true, desc = "Jump to definition"})
 map('n', '<Leader>ld','<Cmd>FzfLua lsp_document_diagnostics<CR>', { noremap = true, silent = true, desc = "Diagnostics"})
-map('n', '<Leader>lw','<Cmd>FzfLua lsp_workspace_diagnostics<CR>', { noremap = true, silent = true, desc = "Workspace symbols"})
+map('n', '<Leader>lw','<Cmd>FzfLua lsp_workspace_symbols<CR>', { noremap = true, silent = true, desc = "Workspace symbols"})
+map('n', '<Leader>lD','<Cmd>FzfLua lsp_workspace_diagnostics<CR>', { noremap = true, silent = true, desc = "Workspace diagnostics"})
 map('n', '<Leader>ls','<Cmd>FzfLua lsp_document_symbols<CR>', { noremap = true, silent = true, desc = "Documents symbols"})
 
 -- Dap
