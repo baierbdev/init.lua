@@ -1,0 +1,7 @@
+require("nvim-tree").setup( { view = { width = 40}})
+require("autoclose").setup()
+require("ibl").setup()
+require("toggleterm").setup()
+require("which-key").setup()
+require("dapui").setup()
+require('lualine').setup()
