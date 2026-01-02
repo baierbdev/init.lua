@@ -94,6 +94,6 @@ vim.lsp.config('digestif', {
 	cmd = {path_mason..'digestif'},
 	filetypes = {'tex'}
 })
-vim.lsp.enable('tex')
+vim.lsp.enable('digestif')
 
 
