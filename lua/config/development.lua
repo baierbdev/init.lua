@@ -1,0 +1,26 @@
+require("apidocs").ensure_install({
+	ensure_install = {
+		"rust",
+		"angular~20",
+		"axios",
+		"bun",
+		"c",
+		"docker",
+		"express",
+		"git",
+		"html",
+		"http",
+		"javascript",
+		"kubernetes", 
+		"kubectl",
+		"node",
+		"openjdk~8",
+		"postgres~18",
+		"react",
+		"redux",
+		"spring_boot",
+		"tailwind",
+		"typescript",
+		"vite"
+	}
+})

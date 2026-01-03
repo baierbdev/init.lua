@@ -22,5 +22,15 @@ return {
 	{
 		"lukas-reineke/indent-blankline.nvim",
 		main = "ibl",
+	},
+	{
+		"folke/noice.nvim",
+		event = "VeryLazy",
+		opts = {
+		},
+		dependencies = {
+			"MunifTanjim/nui.nvim",
+			"rcarriga/nvim-notify",
+		}
 	}
 }
