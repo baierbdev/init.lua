@@ -19,7 +19,9 @@ map('n', '<Leader>n','<Cmd>NvimTreeToggle<CR>', { noremap = true, silent = true,
 map('n', '<Leader>s','<Cmd>ToggleTerm<CR>', { noremap = true, silent = true, desc = "Toggle Term"})
 
 -- Markdown
-map('n', '<Leader>mp','<Cmd>PeekOpen<CR>', { noremap = true, silent = true, desc = "Preview"})
+map('n', '<Leader>mp','<Cmd>MarkdownPreviewToggle<CR>', { noremap = true, silent = true, desc = "Preview"})
+map('n', '<Leader>mo','<Cmd>MdoOpen<CR>', { noremap = true, silent = true, desc = "Outline open"})
+map('n', '<Leader>mc','<Cmd>MdoClose<CR>', { noremap = true, silent = true, desc = "Outline close"})
 map('n', '<Leader>mt','<Cmd>TOCList<CR>', { noremap = true, silent = true, desc = "Generate TOC"})
 
 -- Whaler

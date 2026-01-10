@@ -24,3 +24,4 @@ require("apidocs").ensure_install({
 		"vite"
 	}
 })
+require("luasnip.loaders.from_vscode").lazy_load()

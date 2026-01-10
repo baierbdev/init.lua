@@ -10,9 +10,6 @@ return {
 			{ path = projects_dir..'/rust/', alias = "Rust Projects"},
 			{ path = projects_dir..'/js/', alias = "Javascript Projects"}
 		},
-		oneoff_directories = {
-			{ path = "~/.config/", alias = "Config directory"}
-		},
 		picker = "fzf_lua"
 	}
 }

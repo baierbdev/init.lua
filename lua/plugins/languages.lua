@@ -12,7 +12,10 @@ return {
 		end,
 	},
 	{
-		"JavaHello/spring-boot.nvim",
-		ft = {"java", "yaml", "jproperties"}
+		'nvim-java/nvim-java',
+		config = function()
+			require('java').setup()
+			vim.lsp.enable('jdtls')
+		end,
 	}
 }
