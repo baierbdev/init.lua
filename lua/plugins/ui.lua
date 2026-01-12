@@ -1,8 +1,5 @@
 return {
 	{
-		"nvim-tree/nvim-tree.lua"
-	},
-	{
 		"folke/which-key.nvim",
 		event = "VeryLazy",
 	},
@@ -20,10 +17,6 @@ return {
 		dependencies = { 'nvim-tree/nvim-web-devicons' }
 	},
 	{
-		"lukas-reineke/indent-blankline.nvim",
-		main = "ibl",
-	},
-	{
 		"folke/noice.nvim",
 		event = "VeryLazy",
 		opts = {
@@ -32,5 +25,15 @@ return {
 			"MunifTanjim/nui.nvim",
 			"rcarriga/nvim-notify",
 		}
+	},
+	{
+		'lewis6991/gitsigns.nvim'
+	},
+	{
+		'romgrk/barbar.nvim',
+		dependencies = {
+			'lewis6991/gitsigns.nvim', -- OPTIONAL: for git status
+			'nvim-tree/nvim-web-devicons', -- OPTIONAL: for file icons
+		},
 	}
 }

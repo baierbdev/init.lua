@@ -1,16 +1,21 @@
-	return {
-		{
-			'akinsho/toggleterm.nvim', version = "*", config = true
-		},
-		{
-			'baierbdev/apidocs.nvim',
-			dependencies = {
-				'nvim-treesitter/nvim-treesitter',
+return {
+	{
+		'akinsho/toggleterm.nvim', version = "*", config = true
+	},
+	{
+		'emmanueltouzery/apidocs.nvim',
+		dependencies = {
+			'nvim-treesitter/nvim-treesitter',
 		},
 		cmd = { 'ApidocsSearch', 'ApidocsInstall', 'ApidocsOpen', 'ApidocsSelect', 'ApidocsUninstall' },
-		config = function()
-			require('apidocs').setup({picker = "fzf-lua"})
-		end,
+	},
+	{
+		"folke/trouble.nvim",
+		opts = {}, -- for default options, refer to the configuration section for custom setup.
+		cmd = "Trouble",
+	},
+	{
+		'sindrets/diffview.nvim'
 	}
 }
 

@@ -10,7 +10,7 @@ return {
 			{ path = projects_dir..'/rust/', alias = "Rust Projects"},
 			{ path = projects_dir..'/js/', alias = "Javascript Projects"}
 		},
-		picker = "fzf_lua",
-		file_explorer = "nvimtree"
+		picker = "snacks",
+		file_explorer = "netrw"
 	}
 }
