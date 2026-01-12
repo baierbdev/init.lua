@@ -1,5 +1,4 @@
 require("autoclose").setup()
-require("toggleterm").setup()
 require("which-key").setup()
 require('lualine').setup({
 	options = {

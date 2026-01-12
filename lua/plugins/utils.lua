@@ -1,8 +1,5 @@
 return {
 	{
-		'akinsho/toggleterm.nvim', version = "*", config = true
-	},
-	{
 		'emmanueltouzery/apidocs.nvim',
 		dependencies = {
 			'nvim-treesitter/nvim-treesitter',
