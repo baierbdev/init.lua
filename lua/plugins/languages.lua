@@ -10,12 +10,5 @@ return {
 		config = function()
 			require('crates').setup()
 		end,
-	},
-	{
-		'nvim-java/nvim-java',
-		config = function()
-			require('java').setup()
-			vim.lsp.enable('jdtls')
-		end,
 	}
 }

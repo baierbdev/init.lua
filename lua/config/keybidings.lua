@@ -8,12 +8,22 @@ map('n', '<Leader>e','<Cmd>lua Snacks.picker.explorer()<CR>', { noremap = true, 
 map('n', '<Leader>f','<Cmd>lua Snacks.picker.files()<CR>', { noremap = true, silent = true, desc = "Find files"})
 map('n', '<Leader>m','<Cmd>lua Snacks.picker.man()<CR>', { noremap = true, silent = true, desc = "Man pages"})
 map('n', '<Leader>u','<Cmd>lua Snacks.picker.undo()<CR>', { noremap = true, silent = true, desc = "Undotree"})
+map('n', '<Leader>p','<Cmd>lua Snacks.picker.projects()<CR>', { noremap = true, silent = true, desc = "Projects"})
 map('n', '<Leader>z','<Cmd>lua Snacks.picker.zoxide()<CR>', { noremap = true, silent = true, desc = "Zoxide"})
 
 -- Utils
 map('n', '<Leader>t','<Cmd>ToggleTerm<CR>', { noremap = true, silent = true, desc = "Toggle Term"})
-map('n', '<Leader>w','<Cmd>Whaler<CR>', { noremap = true, silent = true, desc = "Projects"})
 map('n', '<Leader>o','<Cmd>lua Snacks.picker.files({ cwd = "~/Documents/Markdown/Notes"})<CR>', { noremap = true, silent = true, desc = "Open notes"})
+
+-- Barbar
+map('n', '<A-.>', '<Cmd>BufferNext<CR>', { noremap = true, silent = true, desc = "Buffer Next"})
+map('n', '<A-,>', '<Cmd>BufferPrevious<CR>', { noremap = true, silent = true, desc = "Buffer Previous"})
+map('n', '<A-c>', '<Cmd>BufferClose<CR>', { noremap = true, silent = true, desc = "Buffer Close"})
+
+-- Resty
+map('n', '<Leader>rr', '<Cmd>Resty run<CR>', { noremap = true, silent = true, desc = "Resty Run"})
+map('n', '<Leader>rl', '<Cmd>Resty last<CR>', { noremap = true, silent = true, desc = "Resty Last"})
+map('n', '<Leader>rf', '<Cmd>Resty favorite<CR>', { noremap = true, silent = true, desc = "Resty Favorite"})
 
 -- Markdown
 map('n', '<Leader>mp','<Cmd>MarkdownPreviewToggle<CR>', { noremap = true, silent = true, desc = "Preview"})

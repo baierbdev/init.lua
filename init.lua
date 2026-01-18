@@ -22,5 +22,6 @@ require("config.lsp")
 
 require("config.utils")
 
+
 -- Theme
 vim.cmd[[colorscheme tokyonight-storm]]

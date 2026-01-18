@@ -96,4 +96,3 @@ vim.lsp.config('digestif', {
 })
 vim.lsp.enable('digestif')
 
-

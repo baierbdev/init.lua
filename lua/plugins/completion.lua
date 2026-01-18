@@ -3,8 +3,6 @@ return {
 		'saghen/blink.cmp',
 		dependencies = {},
 		version = '1.*',
-		---@module 'blink.cmp'
-		---@type blink.cmp.Config
 		opts = {
 			keymap = { preset = 'enter' },
 
@@ -17,9 +15,9 @@ return {
 			sources = {
 				default = { 'lsp', 'path', 'snippets', 'buffer'},
 			},
-			fuzzy = { implementation = "prefer_rust_with_warning" }
+			fuzzy = { implementation = "prefer_rust_with_warning" },
+			signature = { enabled = true }
 		},
-		opts_extend = { "sources.default" }
 	},
 	{
 		"L3MON4D3/LuaSnip",
